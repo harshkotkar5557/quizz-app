@@ -77,9 +77,16 @@
     padding: 0;
 }
 
+.brandName a {
+    color: var(--white);
+}
+.navbarOptions a{
+    color: var(--white);
+}
 .quizz-cards{
     background: var(--grey);
 }
 .quizz-cards .card{
     background: var(--white);
 }
+
