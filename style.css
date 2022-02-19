@@ -1,5 +1,9 @@
 @import url('./question-1/question-1.css');
 @import url('./result/result.css');
+
+@import url('./rules/rules.css');
+
+
 .p-2rem{
     padding: 2rem;
 }
@@ -91,4 +95,3 @@
 .quizz-cards .card{
     background: var(--white);
 }
-
