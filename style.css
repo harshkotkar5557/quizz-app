@@ -93,3 +93,12 @@
 .quizz-cards .card{
     background: var(--white);
 }
+.new-navbaroption{
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+.letter-spacing{
+    letter-spacing: 0.04em;
+}
