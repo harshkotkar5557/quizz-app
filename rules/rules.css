@@ -1,0 +1,16 @@
+.text-center{
+    text-align: center;
+}
+.rules-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    width: 40%;
+}
+.outer-container-rules{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
