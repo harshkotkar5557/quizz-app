@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobby</title>
+    <link rel="stylesheet" 
+		href="https://kaizen-ui.netlify.app//styles.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" 
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar_std grey-bg">
+        <header class="d-flex justify-space-bw align-center">
+          <div class="brandName"><a href="../index.html">Play-Q</a></div>
+          <div id="hambar" class="hambar"><i class="fa fa-bars" aria-hidden="true"></i></div>
+           <ul class="navbarOptions d-flex d-flex justify-space-bw align-center">
+            <a href="./rules/rules.html" class="white-color"><button class="btn secondary letter-spacing">Rules</button></a>
+                 <a href="/login/login.html">
+                    <div class="avatar sm cursor-pointer">
+                        <img src="../images/avatar-img.jpg" alt="avatar-img">
+                    </div>
+                 </a>
+                
+            </ul>
+      </header>
+</nav>
+    
+    <section class="middleSection login-middle d-flex align-center justify-center">
+        <div class="card login-card">
+            <h2 class="text-center fa-2x">Signup</h2>
+            <div class="d-flex m-2rem-t gap-1rem">
+                <div class="login-input-box">
+                    <label for="firstName">First name</label>
+                    <input placeholder="Text Input Field" id='firstName' class='text-input' type="text">
+                </div>
+                <div class="login-input-box ">
+                    <label for="lastName">Last name</label>
+                    <input placeholder="Text Input Field" id='lastName' class='text-input' type="text">
+                </div>
+            </div>
+            <div class="login-input-box">
+                <label for="email">Email address</label>
+                <input placeholder="Text Input Field" id='email' class='text-input' type="email">
+            </div>
+            <div class="login-input-box">
+                <label for="password">Password</label>
+                <input placeholder="Text Input Field" id='password' class='text-input' type="password">
+            </div>
+            <div class="d-flex p-t-10">
+                <label class="select-input">
+                    <input type="checkbox" name="light" 
+                    class="checkbox-input" value="">
+                    <span class="text p-l-10">I accept all Terms & conditions</span>
+                </label>
+            </div>
+            <div class="w-full d-flex p-t-15">
+                <button class="btn secondary flex-1 ">Create your account</button>
+            </div>
+            <div class="d-flex align-center justify-around p-t-15">
+                <span class="text-center cursor-pointer p-t-10"><a class="black-color" href="../login/login.html">Already have an account <i class="fa fa-arrow-right p-l-5" aria-hidden="true"></i></a> </span>
+            </div>
+           
+        </div>
+    </section>
+    <footer class="footer-container d-flex justify-center align-center flex-dr-col gap-1rem">
+        <span>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Haresh Kotkar</span>
+        <ul class="gap-1rem d-flex justify-space-bw align-center">
+            <li><a href="https://github.com/harshkotkar5557" alt="#" class="white-color"><i class="fa fa-github" 
+            aria-hidden="true">&nbsp;</i></a></li>
+             <li><a href="https://www.linkedin.com/in/haresh-kotkar-389a08139/" alt="#" class="white-color"><i 
+             class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i></a> </li>
+             <li><a href="https://twitter.com/KotkarHaresh" alt="#" class="white-color"><i class="fa fa-twitter-square" aria-hidden="true">&nbsp;</i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
